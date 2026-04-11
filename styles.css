@@ -193,6 +193,34 @@ section p {
     border-radius: 50%;
 }
 
+.experiencia-item {
+    margin-bottom: 24px;
+    padding: 20px;
+    background: var(--color-card);
+    border-radius: var(--radius);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08);
+}
+
+.experiencia-item h3 {
+    margin: 0 0 8px;
+    color: var(--color-primario);
+}
+
+.experiencia-item p {
+    margin: 0 0 12px;
+    font-style: italic;
+    color: var(--color-muted);
+}
+
+.experiencia-item ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.experiencia-item li {
+    margin-bottom: 8px;
+}
+
 .proyecto-card {
     background: var(--color-card);
     border: 1px solid #666;
