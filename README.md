@@ -21,11 +21,20 @@ Este portfolio es una página web estática que muestra mi experiencia profesion
 - Secciones: Sobre Mí, Experiencia, Habilidades, Proyectos, Contacto.
 - Accesibilidad: Skip links, alt texts, navegación por teclado.
 
-## Cómo Verlo
+## Estructura del Proyecto
 
-Puedes ver el portfolio en vivo en: [https://mviera22.github.io/Mi-Portfolio/](https://mviera22.github.io/Mi-Portfolio/)
-
-O clona el repositorio y abre `index.html` en tu navegador.
+```
+MiPortfolio/
+├── index.html          # Página principal
+├── css/
+│   └── styles.css      # Estilos CSS
+├── js/
+│   └── script.js       # JavaScript
+├── assets/
+│   └── img/            # Imágenes (Avatar, favicon, etc.)
+├── README.md           # Documentación
+└── .gitignore          # Archivos ignorados por Git
+```
 
 ## Contacto
 
