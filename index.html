@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuela Viera - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.png" type="img/png">
+</head>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <header>
+        <div class="header-top">
+            <div class="header-avatar">
+                <img src="img/Avatar.png" alt="Avatar de Manuela Viera">
+            </div>
+            <div class="header-title">
+                <h1>Manuela Viera</h1>
+                <p class="tagline">Desarrolladora de software | Java y automatización de procesos</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+    <section id="sobre-mi">
+        <h2>Hola, soy Manuela Viera</h2>
+        <p>Soy desarrolladora de software especializada en Java, con experiencia en desarrollo web (HTML, CSS, JS) y automatización de  procesos usando n8n. 
+            Cuento con formación en Programación Web, manejo de control de versiones con Git y GitHub, y experiencia en automatización de procesos mediante n8n, desarrollando flujos que optimizan tareas administrativas.<br>
+            Mi experiencia previa en el área administrativa me aporta una fuerte capacidad de organización, análisis y resolución de problemas. Busco mi primera oportunidad como Desarrolladora Jr remota, donde pueda seguir creciendo y aportar valor con soluciones tecnológicas.</p>
+    </section>
+
+    
+    <section id="habilidades">
+        <h2>STACK TECNOLÓGICO</h2>
+        <div class="skill-groups">
+            <div class="skill-group">
+                <h3>Lenguajes</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Backend</h3>
+                <ul>
+                    <li>Programación Orientada a Objetos</li>
+                    <li>Desarrollo de aplicaciones con Java</li>
+                    <li>Conexión a bases de datos</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Base de datos</h3>
+                <ul>
+                    <li>MySQL (consultas y diseño básico)</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Herramientas</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>PowerShell</li>
+                    <li>NetBeans</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Automatización</h3>
+                <ul>
+                    <li>n8n (creación de workflows automatizados)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="proyecto-card">
+            <h3>[EDITAR: Título del Proyecto 1, ej: API en Java]</h3>
+            <p>[EDITAR: Breve descripción de lo que hace y qué tecnologías usaste]</p>
+            <a href="https://github.com/mviera22" target="_blank" rel="noopener">Ver proyecto</a>
+        </div>
+    </section>
+    </main>
+
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p><a href="#" id="email-link">Enviar email</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/manuela-viera-a124a8381/?skipRedirect=true" target="_blank" rel="noopener">Mi Perfil</a></p>
+        <p>GitHub: <a href="https://github.com/mviera22" target="_blank" rel="noopener">Mi Perfil</a></p>
+        <p>WhatsApp: <a href="https://wa.me/5492323356423" target="_blank" rel="noopener">Contactar por WhatsApp</a></p>
+    </footer>
+
+    <!-- Modal de contacto -->
+    <div id="email-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Enviar Email</h2>
+            <form action="https://formspree.io/f/[TU-FORM-ID]" method="POST">
+                <div class="form_input"> 
+                    <label>Nombre y Apellido:
+                        <input type="text" name="name" placeholder="Nombre Apellido" required>
+                    </label>
+                </div>
+
+                <div class="form_input">
+                    <label>Email:
+                        <input type="email" name="email" placeholder="TuCorreo@dominio.com" required>
+                    </label>
+                </div>
+
+                <div class="form_input">
+                    <label for="message">Mensaje:
+                        <textarea name="message" placeholder="Dejá tu mensaje..." id="message" required></textarea>
+                    </label>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
