@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: Inter, 'Segoe UI', Arial, sans-serif;
+    font-family: sans-serif;
     background: var(--color-fondo);
     color: var(--color-texto);
     margin: 0;
@@ -291,7 +291,7 @@ section p {
     padding: 16px 32px;
     margin-top: 24px;
     background: linear-gradient(135deg, #3498db 0%, #2ecc71 100%);
-    color: white;
+    color: rgb(10, 10, 10);
     border: 2px solid transparent;
     border-radius: 12px;
     cursor: pointer;
