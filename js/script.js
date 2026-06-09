@@ -54,6 +54,7 @@ if (contactForm) {
         const mailtoLink = `mailto:${destinatario}?subject=${asunto}&body=${cuerpo}`;
 
         window.location.href = mailtoLink;
+        contactForm.reset();
         if (modal) {
             modal.style.display = "none";
         }
