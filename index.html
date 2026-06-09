@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="/assets/img/cohetesf.png" type="img/png">
 </head>
-</head>
 <body>
     <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
 
@@ -104,7 +103,7 @@
 
     <footer id="contacto">
         <h2>Contacto</h2>
-        <p><a href="#" id="email-link">Enviar email</a></p>
+        <p><a href="#" id="email-link" class="contact-button">Enviar correo</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/manuela-viera-a124a8381/?skipRedirect=true" target="_blank" rel="noopener">Mi Perfil</a></p>
         <p>GitHub: <a href="https://github.com/mviera22" target="_blank" rel="noopener">Mi Perfil</a></p>
         <p>WhatsApp: <a href="https://wa.me/5492323356423" target="_blank" rel="noopener">Contactar por WhatsApp</a></p>
@@ -115,7 +114,7 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>Enviar Email</h2>
-            <form action="https://formspree.io/f/[TU-FORM-ID]" method="POST">
+            <form id="contact-form" class="contact-form" action="#" method="POST">
                 <div class="form_input"> 
                     <label>Nombre y Apellido:
                         <input type="text" name="name" placeholder="Nombre Apellido" required>
@@ -133,11 +132,10 @@
                         <textarea name="message" placeholder="Dejá tu mensaje..." id="message" required></textarea>
                     </label>
                 </div>
-                <button type="submit">Enviar</button>
+                <button id="submit-btn" type="submit" class="submit-btn">Enviar mensaje</button>
             </form>
         </div>
     </div>
-
     <script src="js/script.js"></script>
 </body>
 </html>
