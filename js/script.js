@@ -8,7 +8,7 @@ if (emailLink) {
     emailLink.addEventListener("click", function(event) {
         event.preventDefault();
         if (modal) {
-            modal.style.display = "block";
+            modal.style.display = "flex";
         }
     });
 }
@@ -52,8 +52,9 @@ if (contactForm) {
             `Nombre: ${name}\nEmail: ${email}\n\nMensaje:\n${message}`
         );
         const mailtoLink = `mailto:${destinatario}?subject=${asunto}&body=${cuerpo}`;
-
+        
         window.location.href = mailtoLink;
+
         contactForm.reset();
         if (modal) {
             modal.style.display = "none";
